@@ -62,7 +62,7 @@ def extract_and_save_excel_data(file, model_name, today_date, columns, max_lines
     st.write(f"Created {file_index - 1} output files.")
 
 # Streamlit Interface
-st.title("Excel Data Extractor")
+st.title("Verizon Commerical Devices Data Extractor")
 
 # File upload
 uploaded_file = st.file_uploader("Please upload the Excel file", type=["xls", "xlsx"])
